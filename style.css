@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Hide initially */
+#outputSection {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Grid containers */
+#grid, #waterGrid {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Rows */
+.row {
+    display: flex;
+}
+
+/* Cells */
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
+/* Colors */
+.block {
+    background: yellow;
+}
+
+.water {
+    background: #00a8e8;
+}
